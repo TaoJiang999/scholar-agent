@@ -6,7 +6,7 @@ agent = create_graph()
 if __name__ == '__main__':
     # print(os.getenv("MODEL_TEMPERATURE"))
     async def main():
-        response = await agent.ainvoke({"messages": [{"role":"user","content":"请你查询一下2025年以来的关于大模型，强化学习，对齐技术的最新论文，需要5篇。"}]})
+        response = await agent.ainvoke({"messages": [{"role":"user","content":"请帮我分析论文 2401.12345 的结构和主要贡献"}]})
         for m in response["messages"]:
             m.pretty_print()
     import asyncio
