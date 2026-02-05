@@ -1,7 +1,9 @@
 {
     "$schema": "https://langchain-ai.github.io/langgraph/schemas/langgraph.schema.json",
     "dockerfile_lines": [],
-    "graphs": {},
+    "graphs": {
+        "supervisor": "./supervisor/agent.py:graph"
+    },
     "env": ".env",
     "python_version": "3.11",
     "dependencies": [

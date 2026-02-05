@@ -56,3 +56,4 @@ temp/
 
 # Data directories
 data/
+/agent-app/supervisor/
